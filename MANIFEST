@@ -1,9 +1,11 @@
-Build.PL
-Changes
 MANIFEST
+META.yml
+Build.PL
 Makefile.PL
+Changes
 README
 lib/Time/Duration/fr.pm
 t/00-load.t
+t/01-duration-fr.t
 t/pod-coverage.t
 t/pod.t
