@@ -3,7 +3,7 @@ use encoding 'utf-8';
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '1.00';
 
 use base qw< Exporter >;
 
