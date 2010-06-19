@@ -7,6 +7,11 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Sebastien Aperghis-Tramoni <sebastien@aperghis.net>',
     dist_version_from   => 'lib/Time/Duration/fr.pm',
+    meta_merge          => {
+        resources       => {
+            repository  => 'http://github.com/maddingue/Time-Duration-fr',
+        },
+    },
     build_requires => {
         'Test::More' => 0,
     },
