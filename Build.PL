@@ -12,8 +12,12 @@ my $builder = Module::Build->new(
             repository  => 'http://github.com/maddingue/Time-Duration-fr',
         },
     },
+    requires => {
+        'Exporter'          => 0,
+        'Time::Duration'    => 0,
+    },
     build_requires => {
-        'Test::More' => 0,
+        'Test::More'        => 0,
     },
     add_to_cleanup      => [ 'Time-Duration-fr-*' ],
 );

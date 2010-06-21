@@ -1,5 +1,8 @@
 Revision history for Time-Duration-fr
 
+1.01    2010.06.21  (SAPER)
+        [DIST] Fix missing prereqs.
+
 1.00    2010.06.19  (SAPER)
         First version released on the CPAN.
 

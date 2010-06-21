@@ -14,8 +14,12 @@ WriteMakefile(
     },
     PL_FILES            => {},
     PREREQ_PM => {
+        # prereqs
+        'Exporter'          => 0,
+        'Time::Duration'    => 0,
+
         # build/test prereqs
-        'Test::More'    => 0,
+        'Test::More'        => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Time-Duration-fr-*' },
