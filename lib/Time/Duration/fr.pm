@@ -1,11 +1,11 @@
 package Time::Duration::fr;
-use encoding 'utf-8';
+use utf8;
 use strict;
 use warnings;
 
-our $VERSION = '1.01';
+use Exporter qw< import >;
 
-use base qw< Exporter >;
+our $VERSION = '1.02';
 
 our @EXPORT = qw<
     later  later_exact  earlier  earlier_exact
@@ -158,7 +158,7 @@ Time::Duration::fr - describe time duration in French
 
 =head1 VERSION
 
-Version 0.01
+Version 1.02
 
 
 =head1 SYNOPSIS
@@ -325,30 +325,34 @@ You can find documentation for this module with the perldoc command.
 
 You can also look for information at:
 
-=over 4
+=over
 
-=item * RT: CPAN's request tracker
+=item * MetaCPAN
 
-L<http://rt.cpan.org/Public/Dist/Display.html?Dist=Time-Duration-fr>
+L<https://metacpan.org/pod/Time::Duration::fr>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Time-Duration-fr>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
 L<http://annocpan.org/dist/Time-Duration-fr>
 
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/Public/Dist/Display.html?Dist=Time-Duration-fr>
+
 =item * CPAN Ratings
 
 L<http://cpanratings.perl.org/d/Time-Duration-fr>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Time-Duration-fr>
 
 =back
 
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2010 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
+Copyright 2010-2016 SE<eacute>bastien Aperghis-Tramoni, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
