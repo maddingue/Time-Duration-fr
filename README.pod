@@ -1,0 +1,64 @@
+=head1 NAME
+
+Time::Duration::fr - describe time duration in French
+
+=head1 DESCRIPTION
+
+Time::Duration::fr is a localized version of Time::Duration.
+
+=head1 INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+Alternatively, to install with Module::Build, you can use
+the following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+=head1 SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module
+with the perldoc command.
+
+    perldoc Time::Duration::fr
+
+You can also look for information at:
+
+=over
+
+=item * MetaCPAN
+
+L<https://metacpan.org/pod/Time::Duration::fr>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Time-Duration-fr>
+
+=item * AnnoCPAN, Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Time-Duration-fr>
+
+=item * RT, CPAN's request tracker
+
+L<http://rt.cpan.org/Public/Dist/Display.html?Dist=Time-Duration-fr>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Time-Duration-fr>
+
+=back
+
+=head1 COPYRIGHT AND LICENCE
+
+Copyright (C) 2010-2016 Sebastien Aperghis-Tramoni
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
