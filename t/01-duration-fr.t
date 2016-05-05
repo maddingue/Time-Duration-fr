@@ -1,5 +1,6 @@
-# Translated et converted to Test::More from Time::Duration's t/01_tdur.t
-use encoding 'utf-8';
+#!perl -T
+# Translated and converted to Test::More from Time::Duration's t/01_tdur.t
+use utf8;
 use strict;
 use Test::More;
 use Time::Duration::fr;
